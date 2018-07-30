@@ -1,0 +1,67 @@
+*{
+	/*Inicializar la pagina sin ningun tipo de margen*/
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	/*Ajustes al fondo de la pantalla y a la fuente que se va a utilizar*/
+	background: skyblue;
+	font-family: Courier, Garamond, Bookman;
+}
+
+header, .main, footer{
+	/*Posicionamiento del encabezado, articulos y pie de pagina*/
+	width: 85%;
+	/*max-width: 1000px;*/
+	margin: 20px auto;
+}
+
+h1{
+	color: orange;
+	border-bottom:2px solid black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align:center;
+}
+
+.cj{
+	/*Ajustes a la apariencia de los post-it*/
+	border-radius: 5% 0% 0% 0%;
+	background: black;
+	color: black;
+	font-size:1em;
+	width: 15%;
+	padding: 10px;
+	float: left;
+	margin-top: 1%;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	background: rgba(255,255,255,0.7);
+}
+
+textarea{
+	resize: none;
+	border: 1px solid #000099;
+	width: 95%;
+}
+
+.eliminar{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4px;
+}
+
+footer{
+	/*Ajustes de posicionamiento y estetica al pie de pagina*/
+	border-radius: 10px 10px;
+	border: solid;
+	border-color: rgb(15,15,36);
+	color: white;
+	clear: both;
+	background: rgb(15,15,36);
+	padding: 10px 0px;
+	text-align: center;
+	font-weight: bold;
+}
